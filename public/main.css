@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.main {
+    
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+    
+        display: grid;
+        grid-template-columns: 37% 1fr 37%;
+        grid-template-rows: 6fr 10fr 6fr;
+    
+    
+    
+}
+
+.center {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: lightskyblue;
+    display: grid;
+
+    grid-template-columns: 3% 1fr 3%;
+    grid-template-rows: 3fr 3fr 3fr 1fr 1fr 1fr 1fr 1fr ;
+
+}
+
+.hi {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nickname {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.mypage {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+
+.promise {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.return {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.smartkey {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+.event {
+    grid-column: 2/3;
+    grid-row: 7/8;
+}
